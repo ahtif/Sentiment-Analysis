@@ -1,0 +1,17 @@
+LIBRARIES AND PYTHON VERSION:
+This code was written and tested on the lab machines using Python 3.4.8.
+Libraries used that are not installed by default: sklearn, pandas, numpy, tensorflow
+Also please note the keras version used is 1.2.2 (which is pretty old) since I could 
+not get any newer versions working on the lab machines.
+
+HOW TO RUN:
+Code assumes a testsets.py and evaluate.py file is present (not supplied in the zip)
+Code assumes nltk data is present in the path /modules/cs918/nltk_data/
+Code assumes training data exists in the same folder as the code (included in the zip)
+Codes assums the svm.pkl file also exists in the same folder (also included in zip),
+otherwise it will train the svm model again which can take very long (multiple hours!!!).
+
+Other than that the code will always train the naive bayes model and the CNN as they
+do not take very long to train and run (about 3 minutes total running time with the 
+3 test sets).
+
